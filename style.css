@@ -1,0 +1,35 @@
+body {
+    background-color: #282b30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.play-state, .play-state-circle {
+    color: #7289da;
+}
+
+.play-state-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid;
+    cursor: pointer;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.play-state-circle:hover {
+    box-shadow: 0 0 10px #7289da;
+}
+
+.play-state {
+    font-size: 90px;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
